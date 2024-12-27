@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #d4d0d0;
     color: #333;
-    margin: auto; padding:0%
+    margin: auto; padding: 0%;
 }
 
 header {
@@ -12,12 +12,11 @@ header {
     padding: 20px;
 }
 
-section {
+main { /*  cant center it correctly, going to do it later with a fresh head  */
     margin-top: 20px; margin-bottom: 20px ;
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
-    text-align: center;
 }
 
 h2 {
