@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4d0d0;
+    color: #333;
+    margin: auto; padding:0%
+}
+
+header {
+    background-color: #d10000;
+    color: #ffff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    margin-top: 20px; margin-bottom: 20px ;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h2 {
+    color: #4caf50;
+    text-align: center;
+}
+
+img {
+    margin-left: 33%; margin-right: 33%;
+
+    /* I dont know if this is the right code, i was just trying out diff % 
+    and i found this to be in the center but there has to be something more exact*/
+    padding: 10px;
+    max-width: 600px;
+    border: #ddd; border-radius: 5px;
+    max-width: 100%; height: auto;
+}
+
+.Email-field {
+    margin-bottom: 50px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 5px; margin-left: 30px; border-width: 1px ;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: green;
+    text-align: center; color: white;
+}
