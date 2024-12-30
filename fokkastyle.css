@@ -1,8 +1,13 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #d4d0d0;
     color: #333;
-    margin: auto; padding: 0%;
 }
 
 header {
@@ -24,19 +29,30 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    margin-left: 35%;
+
+}
+
+li {
+    margin-left: 35%;
+}
+
 img {
-    margin-left: 35%; margin-right: 35%;
-    /* I dont know if this is the right code, i was just trying out diff % 
-    and i found this to be in the center but there has to be something more exact*/
-    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    padding: 1px;
     max-width: 600px;
-    border: #ddd; border-radius: 5px;
+    border: #080808; border-radius: 20px;
+    border: solid;
+
     max-width: 100%; height: auto;
 }
 
 
 .Email-field {
     margin-bottom: 50px;
+    margin-left: 35%;
 }
 
 button {
